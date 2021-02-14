@@ -10,7 +10,7 @@ tap "liamg/tfsec"
 tap "mongodb/brew"
 tap "weaveworks/tap"
 
-brew 'zsh'
+brew "zsh"
 brew "coreutils"
 brew "git"
 brew "hub"
@@ -20,7 +20,8 @@ brew "wget"
 brew "thefuck"
 brew "yq"
 cask "iterm2"
-cask 'little-snitch'
+cask "little-snitch"
+brew "gnupg"
 
 brew "openjdk@11"
 brew "openjdk"
