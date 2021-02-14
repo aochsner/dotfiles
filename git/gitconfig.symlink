@@ -5,9 +5,9 @@
         protocol = https
 [alias]
         co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributors = !$ZSH/bin/git-rank-contributors
+        promote = !$DOT/bin/git-promote
+        wtf     = !$DOT/bin/git-wtf
+        rank-contributors = !$DOT/bin/git-rank-contributors
         count   = !git shortlog -sn
 [color]
         diff = auto
@@ -33,3 +33,26 @@
         default = simple
 [credential]
 	helper = osxkeychain
+[user]
+        name = Andrew Ochsner
+        email = aochsner@cs.stanford.edu
+        signingKey = AC80733BA2DB988AAE8B9CA745A1E31CD8B35CD2
+[filter "lfs"]
+        process = git-lfs filter-process
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+[secrets]
+        providers = git secrets --aws-provider
+        patterns = [A-Z0-9]{20}
+        patterns = (\"|')?(AWS|aws|Aws)?_?(SECRET|secret|Secret)?_?(ACCESS|access|Access)?_?(KEY|key|Key)(\"|')?\\s*(:|=>|=)\\s*(\"|')?[A-Za-z0-9/\\+=]{40}(\"|')?
+        patterns = (\"|')?(AWS|aws|Aws)?_?(ACCOUNT|account|Account)_?(ID|id|Id)?(\"|')?\\s*(:|=>|=)\\s*(\"|')?[0-9]{4}\\-?[0-9]{4}\\-?[0-9]{4}(\"|')?
+        allowed = AKIAIOSFODNN7EXAMPLE
+        allowed = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+[tag]
+        forceSignAnnotated = false
+[init]
+        templateDir = ~/.git-template
+        defaultBranch = main
+[pull]
+        rebase = true
