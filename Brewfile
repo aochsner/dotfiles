@@ -36,7 +36,7 @@ mas "Magnet", id: 441258766
 cask "slack"
 cask "backblaze"
 cask "authy"
-
+cask "zoom"
 
 brew "adr-tools"
 brew "checkov"
@@ -71,6 +71,7 @@ cask "virtualbox"
 cask "virtualbox-extension-pack"
 cask "yubico-authenticator"
 cask "yubico-yubikey-manager"
+cask "tunnelbear"
 
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
