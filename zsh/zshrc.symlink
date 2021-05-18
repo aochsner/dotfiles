@@ -78,6 +78,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 #plugins=(git autoenv ssh-agent nvm)
 plugins=(git ssh-agent gpg-agent nvm jenv terraform thefuck)
 
+zstyle :omz:plugins:ssh-agent identities id_ecdsa_sk
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
