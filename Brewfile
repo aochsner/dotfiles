@@ -8,11 +8,13 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "mongodb/brew"
 tap "weaveworks/tap"
+tap "little-angry-clouds/homebrew-my-brews"
+tap "liamg/tfsec"
+tap "paulp/extras"
 
 brew "zsh"
 brew "coreutils"
 brew "git"
-brew "hub"
 brew "jq"
 brew "mas"
 brew "wget"
@@ -37,6 +39,8 @@ cask "backblaze"
 cask "authy"
 cask "zoom"
 
+brew "awscli"
+brew "azure-cli"
 brew "adr-tools"
 brew "checkov"
 brew "gh"
@@ -61,25 +65,40 @@ cask "font-meslo-lg-nerd-font"
 cask "jetbrains-toolbox"
 cask "keybase"
 cask "eul"
+cask "paw"
 cask "microsoft-auto-update"
 cask "microsoft-office"
 cask "skitch"
 cask "spotify"
-cask "vagrant"
 cask "virtualbox"
 cask "virtualbox-extension-pack"
 cask "yubico-authenticator"
 cask "yubico-yubikey-manager"
 cask "tunnelbear"
+brew "little-angry-clouds/my-brews/kbenv"
+
 
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
 mas "Debit & Credit", id: 882637653
 mas "Numbers", id: 409203825
+mas "HP Smart", id: 1474276998
+
+# Java
+brew "jenv"
+brew "openjdk"
+#brew "maven"
+brew "openjdk@11"
+#brew "openjdk@8"
+
+# Node
+brew "nvm"
+
+# Python
+brew "python@3.10"
+
+# Golang
+brew "go"
 
 # client
-brew "codacy/tap/codacy-analysis-cli"
-brew "codefresh-io/cli/codefresh"
-cask "forticlient"
-cask "microsoft-teams"
-cask "amazon-chime"
+brew "kind"
