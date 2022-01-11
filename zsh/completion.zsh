@@ -3,3 +3,7 @@
 
 # pasting with tabs doesn't perform completion
 #zstyle ':completion:*' insert-tab pending
+
+# limit make completion to just targets
+zstyle ':completion:*:*:make:*' tag-order 'targets'
+

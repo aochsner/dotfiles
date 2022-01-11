@@ -102,3 +102,6 @@ brew "go"
 
 # client
 brew "kind"
+cask "microsoft-teams"
+brew "glab"
+cask "vmware-horizon-client"
