@@ -60,6 +60,3 @@ $DOT/script/install
 # Upgrade homebrew
 echo "› brew upgrade"
 brew upgrade && brew cleanup
-
-# update omz
-omz update
