@@ -23,6 +23,7 @@ brew "yq"
 cask "iterm2"
 #cask "little-snitch"
 brew "gnupg"
+cask "obsidian"
 
 brew "openjdk@11"
 brew "openjdk"
