@@ -23,7 +23,7 @@ brew "yq"
 cask "iterm2"
 #cask "little-snitch"
 brew "gnupg"
-cask "obsidian"
+cask "logseq"
 
 brew "openjdk@11"
 brew "openjdk"
@@ -76,8 +76,6 @@ cask "virtualbox-extension-pack"
 cask "yubico-authenticator"
 cask "yubico-yubikey-manager"
 cask "tunnelbear"
-brew "little-angry-clouds/my-brews/kbenv"
-
 
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
