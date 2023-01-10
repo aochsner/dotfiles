@@ -71,7 +71,7 @@ cask "skitch"
 #cask "virtualbox-extension-pack"
 cask "yubico-authenticator"
 cask "yubico-yubikey-manager"
-cask "tunnelbear"
+#cask "tunnelbear"
 
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
