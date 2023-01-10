@@ -27,12 +27,12 @@ cask "logseq"
 
 brew "awscli"
 
-cask "google-chrome"
+#cask "google-chrome"
 cask "visual-studio-code"
-mas "Enpass", id: 732710998
-mas "Magnet", id: 441258766
+#mas "Enpass", id: 732710998
+#mas "Magnet", id: 441258766
 cask "slack"
-cask "backblaze"
+#cask "backblaze"
 cask "authy"
 cask "zoom"
 cask "alfred"
@@ -60,11 +60,11 @@ cask "font-inconsolata-for-powerline-bold"
 cask "font-powerline-symbols"
 cask "font-meslo-lg-nerd-font"
 cask "jetbrains-toolbox"
-cask "keybase"
+#cask "keybase"
 cask "eul"
 cask "paw"
-cask "microsoft-auto-update"
-cask "microsoft-office"
+#cask "microsoft-auto-update"
+#cask "microsoft-office"
 cask "skitch"
 cask "spotify"
 #cask "virtualbox"
@@ -75,7 +75,7 @@ cask "tunnelbear"
 
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
-mas "Debit & Credit", id: 882637653
+#mas "Debit & Credit", id: 882637653
 mas "Numbers", id: 409203825
 mas "HP Smart", id: 1474276998
 
