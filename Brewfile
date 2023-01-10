@@ -29,7 +29,7 @@ brew "awscli"
 
 #cask "google-chrome"
 cask "visual-studio-code"
-#mas "Enpass", id: 732710998
+mas "Enpass", id: 732710998
 #mas "Magnet", id: 441258766
 cask "slack"
 #cask "backblaze"
