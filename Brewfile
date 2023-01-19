@@ -20,10 +20,12 @@ brew "mas"
 brew "wget"
 brew "thefuck"
 brew "yq"
+brew "openssh"
 cask "iterm2"
 #cask "little-snitch"
 brew "gnupg"
 cask "logseq"
+cask "grammarly-desktop"
 
 brew "awscli"
 
@@ -31,6 +33,7 @@ brew "awscli"
 cask "visual-studio-code"
 mas "Enpass", id: 732710998
 #mas "Magnet", id: 441258766
+cask "rectangle"
 cask "slack"
 #cask "backblaze"
 cask "authy"
@@ -66,7 +69,8 @@ cask "paw"
 #cask "microsoft-auto-update"
 #cask "microsoft-office"
 #cask "microsoft-teams"
-cask "skitch"
+#cask "skitch"
+cask "shottr"
 #cask "spotify"
 #cask "virtualbox"
 #cask "virtualbox-extension-pack"
@@ -76,7 +80,7 @@ cask "yubico-yubikey-manager"
 
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
-#mas "Debit & Credit", id: 882637653
+mas "Debit & Credit", id: 882637653
 mas "Numbers", id: 409203825
 mas "HP Smart", id: 1474276998
 

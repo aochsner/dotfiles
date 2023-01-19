@@ -4,11 +4,11 @@
 #
 
 # Check for brew's zsh
-if [ "$SHELL" != "/usr/local/bin/zsh" ]
+if [ "$SHELL" != "/opt/homebrew/bin/zsh" ]
 then
   echo "  Setting default shell to brew's zsh for you."
 
-  sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
+  sudo dscl . -create /Users/$USER UserShell /opt/homebrew/bin/zsh
 fi
 
 exit 0
