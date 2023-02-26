@@ -1,7 +1,4 @@
 {
-	"credsStore": "osxkeychain",
-	"currentContext": "colima",
-	"aliases": {
-		"builder": "buildx"
-	}
+	"auths": {},
+	"credsStore": "osxkeychain"
 }
