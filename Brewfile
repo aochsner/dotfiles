@@ -26,6 +26,7 @@ cask "iterm2"
 brew "gnupg"
 cask "logseq"
 cask "grammarly-desktop"
+cask "grammarly"
 
 brew "awscli"
 
