@@ -114,7 +114,7 @@ docker: {}
 # vz is macOS virtualization framework and requires macOS 13
 #
 # Default: qemu
-vmType: vz
+vmType: ""
 
 # Utilise rosetta for amd64 emulation (requires m1 mac and vmType `vz`)
 # Default: false
