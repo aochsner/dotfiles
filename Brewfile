@@ -76,6 +76,7 @@ cask "microsoft-auto-update"
 #cask "microsoft-teams"
 #cask "skitch"
 cask "shottr"
+
 #cask "spotify"
 #cask "virtualbox"
 #cask "virtualbox-extension-pack"

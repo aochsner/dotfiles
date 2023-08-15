@@ -61,3 +61,5 @@
         rebase = true
 [commit]
 	gpgsign = true
+[http]
+	cookiefile = /Users/907929/.gitcookies
