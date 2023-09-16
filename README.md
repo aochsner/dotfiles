@@ -66,6 +66,23 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+## reinstall OS or move computers steps
+
+Here's the steps I take to capture all of my local data/apps before I wipe a
+machine or move to a new one
+
+- `brew bundle dump` just to capture/diff if I need to include anything in my existing `Brewfile`
+- Backup tab/window sessions
+- Ensure passwords (Enpass), notes (LogSeq, OneNote), code (work directory) are pushed to servers or backed up
+- Unauthorize computer in Apple Music
+- Files/documents I still might have open or need to reference
+  - Downloads
+  - Desktop (onedrive)
+  - Documents (onedrive)
+  - work
+  - Pictures/Music?
+- 
+
 ## bugs
 
 I want this to work for everyone; that means when you clone it down it should
