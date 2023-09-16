@@ -80,6 +80,8 @@ machine or move to a new one
   - Desktop (onedrive)
   - Documents (onedrive)
   - work
+  - .ssh 
+  - home dir (dot folders)
   - Pictures/Music?
 - 
 
