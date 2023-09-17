@@ -83,6 +83,7 @@ machine or move to a new one
   - .ssh 
   - home dir (dot folders)
   - Pictures/Music?
+  - gpg export https://github.com/drduh/YubiKey-Guide#multiple-hosts
 - 
 
 ## bugs
