@@ -1,1 +1,1 @@
-export PATH=$PATH:$(bingo bin)
+export PATH=$PATH:$(bingo bin):~/bin
