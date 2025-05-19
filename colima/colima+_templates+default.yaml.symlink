@@ -171,7 +171,14 @@ cpuType: host
 #       touch ~/.provision
 #
 # Default: []
-provision: []
+provision:
+  - mode: system
+    script: |
+      CERTS="${HOME}/Library/cacerts.pem"
+      cp ${CERTS} /usr/local/share/ca-certificates/
+      update-ca-certificates
+      systemctl daemon-reload
+      systemctl restart docker
 
 # Modify ~/.ssh/config automatically to include a SSH config for the virtual machine.
 # SSH config will still be generated in $COLIMA_HOME/ssh_config regardless.
