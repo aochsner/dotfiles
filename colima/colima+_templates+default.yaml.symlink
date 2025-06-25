@@ -174,8 +174,8 @@ cpuType: host
 provision:
   - mode: system
     script: |
-      CERTS="${HOME}/Library/cacerts.pem"
-      cp ${CERTS} /usr/local/share/ca-certificates/
+      CERTS="/Users/907929/.dotfiles/ca-certs"
+      cp ${CERTS}/* /usr/local/share/ca-certificates/
       update-ca-certificates
       systemctl daemon-reload
       systemctl restart docker
