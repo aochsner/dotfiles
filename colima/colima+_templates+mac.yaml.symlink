@@ -38,7 +38,7 @@ kubernetes:
   # Kubernetes version to use.
   # This needs to exactly match a k3s version https://github.com/k3s-io/k3s/releases
   # Default: latest stable release
-  version: v1.24.3+k3s1
+  version: v1.33.2+k3s1
   
   # Additional args to pass to k3s https://docs.k3s.io/cli/server
   # Default: traefik is disabled
@@ -205,6 +205,14 @@ sshPort: 0
 # Colima default behaviour: $HOME and /tmp/colima are mounted as writable.
 # Default: []
 mounts: []
+
+# Specify a custom disk image for the virtual machine.
+# When not specified, Colima downloads an appropriate disk image from Github at
+# https://github.com/abiosoft/colima-core/releases.
+# The file path to a custom disk image can be specified to override the behaviour.
+#
+# Default: ""
+diskImage: ""
 
 # Environment variables for the virtual machine.
 #
