@@ -1,6 +1,6 @@
 #tap "codacy/tap"
 #tap "codefresh-io/cli"
-tap "homebrew/bundle"
+#tap "homebrew/bundle"
 #tap "homebrew/cask"
 #tap "homebrew/cask-drivers"
 #tap "homebrew/cask-fonts"
