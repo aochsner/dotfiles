@@ -38,7 +38,7 @@ mas "Enpass", id: 732710998
 cask "rectangle"
 cask "slack"
 #cask "backblaze"
-cask "authy"
+#cask "authy"
 cask "zoom"
 cask "alfred"
 
