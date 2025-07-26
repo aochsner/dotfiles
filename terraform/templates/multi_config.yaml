@@ -1,0 +1,5 @@
+# Configuration for multi-source processor
+config:
+  sortItems: true
+  includeMetadata: true
+  outputFormat: yaml # can be "yaml" or "json"
