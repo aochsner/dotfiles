@@ -1,12 +1,3 @@
-#tap "codacy/tap"
-#tap "codefresh-io/cli"
-#tap "homebrew/bundle"
-#tap "homebrew/cask"
-#tap "homebrew/cask-drivers"
-#tap "homebrew/cask-fonts"
-#tap "homebrew/cask-versions"
-#tap "homebrew/core"
-#tap "mongodb/brew"
 tap "weaveworks/tap"
 tap "little-angry-clouds/homebrew-my-brews"
 tap "liamg/tfsec"
@@ -27,14 +18,12 @@ cask "iterm2"
 brew "gnupg"
 cask "logseq"
 cask "grammarly-desktop"
-#cask "grammarly"
 
 brew "awscli"
 
 #cask "google-chrome"
 cask "visual-studio-code"
 mas "Enpass", id: 732710998
-#mas "Magnet", id: 441258766
 cask "rectangle"
 cask "slack"
 #cask "backblaze"
@@ -76,15 +65,11 @@ cask "paw"
 #cask "microsoft-office"
 #cask "microsoft-teams"
 cask "microsoft-edge"
-#cask "skitch"
 cask "shottr"
 
 cask "spotify"
-#cask "virtualbox"
-#cask "virtualbox-extension-pack"
 cask "yubico-authenticator"
 cask "yubico-yubikey-manager"
-#cask "tunnelbear"
 cask "steam"
 
 mas "Pages", id: 409201541
