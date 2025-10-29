@@ -38,7 +38,7 @@
 	helper = osxkeychain
 [user]
         name = Andrew Ochsner
-        email = andrew.ochsner@cognizant.com
+        email = aochsner@cs.stanford.edu
         signingKey = AC80733BA2DB988AAE8B9CA745A1E31CD8B35CD2
 # https://developers.yubico.com/SSH/Securing_git_with_SSH_and_FIDO2.html if switching from PGP to SSH
 [filter "lfs"]
@@ -63,4 +63,4 @@
 [commit]
 	gpgsign = true
 [http]
-	cookiefile = /Users/907929/.gitcookies
+	cookiefile = /Users/aochsner/.gitcookies

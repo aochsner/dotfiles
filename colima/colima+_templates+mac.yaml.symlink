@@ -174,7 +174,7 @@ cpuType: host
 provision:
   - mode: system
     script: |
-      CERTS="/Users/907929/.dotfiles/ca-certs"
+      CERTS="/Users/aochsner/.dotfiles/ca-certs"
       cp ${CERTS}/* /usr/local/share/ca-certificates/
       update-ca-certificates
       systemctl daemon-reload

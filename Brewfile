@@ -14,20 +14,18 @@ brew "thefuck"
 brew "yq"
 brew "openssh"
 cask "iterm2"
-#cask "little-snitch"
 brew "gnupg"
 cask "logseq"
 cask "grammarly-desktop"
 
 brew "awscli"
 
-#cask "google-chrome"
+cask "google-chrome"
 cask "visual-studio-code"
 mas "Enpass", id: 732710998
 cask "rectangle"
 cask "slack"
-#cask "backblaze"
-#cask "authy"
+cask "backblaze"
 cask "zoom"
 cask "alfred"
 
@@ -43,14 +41,13 @@ brew "tfenv"
 brew "tflint"
 brew "tfsec"
 brew "weaveworks/tap/eksctl"
-#cask "backblaze-downloader"
+cask "backblaze-downloader"
 brew "colima"
 brew "docker"
 brew "docker-compose"
 brew "docker-buildx"
 brew "docker-credential-helper"
-#cask "dropbox"
-#cask "evernote"
+cask "dropbox"
 cask "font-consolas-for-powerline"
 cask "font-inconsolata"
 cask "font-inconsolata-for-powerline"
@@ -60,12 +57,14 @@ cask "font-meslo-lg-nerd-font"
 cask "jetbrains-toolbox"
 cask "keybase"
 cask "eul"
-cask "paw"
-#cask "microsoft-auto-update"
-#cask "microsoft-office"
-#cask "microsoft-teams"
+cask "rapidapi"
+cask "microsoft-auto-update"
+cask "microsoft-office"
 cask "microsoft-edge"
 cask "shottr"
+cask "claude-code"
+cask "cursor"
+cask "codex"
 
 cask "spotify"
 cask "yubico-authenticator"
@@ -76,20 +75,17 @@ mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
 mas "Debit & Credit", id: 882637653
 mas "Numbers", id: 409203825
-mas "HP Smart", id: 1474276998
 
 # Java
 brew "jenv"
 #brew "openjdk"
 #brew "maven"
-#brew "openjdk@11"
-#brew "openjdk@8"
 
 # Node
 brew "nvm"
 
 # Python
-brew "python@3.10"
+brew "python@3.14"
 
 # Golang
 brew "go"
@@ -98,7 +94,7 @@ brew "tekwizely/tap/bingo"
 # client
 brew "kind"
 #brew "glab"
-cask "vmware-horizon-client"
-cask "aws-vpn-client"
-cask "webex-meetings"
+#cask "vmware-horizon-client"
+#cask "aws-vpn-client"
+#cask "webex-meetings"
 brew "saml2aws"
