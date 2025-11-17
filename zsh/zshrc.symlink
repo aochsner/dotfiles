@@ -182,3 +182,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
