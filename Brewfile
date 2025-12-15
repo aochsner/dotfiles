@@ -19,7 +19,7 @@ cask "logseq"
 cask "grammarly-desktop"
 
 brew "awscli"
-brew "gcloud-cli"
+cask "gcloud-cli"
 
 cask "google-chrome"
 cask "visual-studio-code"
