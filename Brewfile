@@ -26,6 +26,7 @@ cask "visual-studio-code"
 mas "Enpass", id: 732710998
 cask "rectangle"
 cask "slack"
+cask "discord"
 cask "backblaze"
 cask "zoom"
 cask "alfred"
