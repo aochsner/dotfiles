@@ -100,3 +100,9 @@ brew "kind"
 #cask "aws-vpn-client"
 #cask "webex-meetings"
 brew "saml2aws"
+
+# Monstro
+cask "linear-linear"
+cask "figma"
+cask "notion"
+cask "miro"
