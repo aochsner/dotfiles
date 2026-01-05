@@ -73,8 +73,8 @@ this script in `bin/`.
 - Import iTerm Default.json profile
 - Import ssh keys
 - Import gpg public key
-  - `gpg --edit-key`
-  - `gpg fetch`
+  - `gpg --edit-card`
+  - `fetch`
 
 ## reinstall OS or move computers steps
 
