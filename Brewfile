@@ -70,7 +70,7 @@ cask "codex"
 
 cask "spotify"
 cask "yubico-authenticator"
-cask "yubico-yubikey-manager"
+#cask "yubico-yubikey-manager"
 cask "steam"
 
 mas "Pages", id: 409201541
