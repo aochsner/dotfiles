@@ -3,7 +3,6 @@
 		"ghcr.io": {}
 	},
 	"credsStore": "osxkeychain",
-	"currentContext": "colima-mac",
 	"aliases": {
 		"builder": "buildx"
 	}

@@ -9,6 +9,7 @@
         wtf     = !$DOT/bin/git-wtf
         rank-contributors = !$DOT/bin/git-rank-contributors
         count   = !git shortlog -sn
+	done = "!f() { git checkout - && git branch -D @{-1}; }; f"
 [color]
         diff = auto
         status = auto
@@ -38,7 +39,6 @@
 	helper = osxkeychain
 [user]
         name = Andrew Ochsner
-        email = aochsner@cs.stanford.edu
         signingKey = AC80733BA2DB988AAE8B9CA745A1E31CD8B35CD2
 # https://developers.yubico.com/SSH/Securing_git_with_SSH_and_FIDO2.html if switching from PGP to SSH
 [filter "lfs"]
