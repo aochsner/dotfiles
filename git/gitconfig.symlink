@@ -39,6 +39,7 @@
 	helper = osxkeychain
 [user]
         name = Andrew Ochsner
+        email = andy.ochsner@monstro.com
         signingKey = AC80733BA2DB988AAE8B9CA745A1E31CD8B35CD2
 # https://developers.yubico.com/SSH/Securing_git_with_SSH_and_FIDO2.html if switching from PGP to SSH
 [filter "lfs"]
