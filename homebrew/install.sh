@@ -5,6 +5,12 @@
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew.
 
+# Only run on macOS
+if test "$(uname)" != "Darwin"
+then
+  exit 0
+fi
+
 # Check for Homebrew
 if test ! $(which brew)
 then
