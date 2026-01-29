@@ -78,9 +78,16 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #plugins=(git autoenv ssh-agent nvm)
-plugins=(git ssh-agent gpg-agent nvm jenv opentofu thefuck kubectl dotenv golang docker gh zsh-autosuggestions zsh-syntax-highlighting)
 
-zstyle :omz:plugins:ssh-agent identities id_ecdsa_sk id_rsa
+# Detect if running in a devcontainer/codespace (VSCode handles SSH agent forwarding)
+if [[ -n "$REMOTE_CONTAINERS" || -n "$CODESPACES" || -d "/workspaces" ]]; then
+  # In devcontainer: skip ssh-agent plugin to preserve VSCode's forwarded agent
+  plugins=(git gpg-agent nvm jenv opentofu thefuck kubectl dotenv golang docker gh zsh-autosuggestions zsh-syntax-highlighting)
+else
+  # On host: use ssh-agent plugin to manage keys
+  plugins=(git ssh-agent gpg-agent nvm jenv opentofu thefuck kubectl dotenv golang docker gh zsh-autosuggestions zsh-syntax-highlighting)
+  zstyle :omz:plugins:ssh-agent identities id_ecdsa_sk id_rsa
+fi
 
 source $ZSH/oh-my-zsh.sh
 
