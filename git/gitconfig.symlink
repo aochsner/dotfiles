@@ -33,7 +33,7 @@
 	default = simple
 	autoSetupRemote = true
 [credential]
-	helper = "!f() { /home/vscode/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node /tmp/vscode-remote-containers-6cba1c83-35bf-4ac3-bd6d-74a99ee2d288.js git-credential-helper $*; }; f"
+	helper = manager-core
 [user]
         name = Andrew Ochsner
         email = andy.ochsner@monstro.com

@@ -18,6 +18,7 @@ brew "gnupg"
 cask "logseq"
 cask "grammarly-desktop"
 brew "pinentry-mac"
+cask "git-credential-manager"
 
 brew "awscli"
 cask "gcloud-cli"
