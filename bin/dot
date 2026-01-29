@@ -40,23 +40,30 @@ done
 
 export DOT=$HOME/.dotfiles
 
-# Set macOS defaults
-$DOT/macos/set-defaults.sh
-
 # Install oh-my-zsh
 $DOT/oh-my-zsh/install.sh 2>&1
 
-# Install homebrew
-$DOT/homebrew/install.sh 2>&1
+# macOS-specific setup
+if test "$(uname)" = "Darwin"
+then
+  # Set macOS defaults
+  $DOT/macos/set-defaults.sh
 
-# Update homebrew
-echo "› brew update"
-brew update
+  # Install homebrew
+  $DOT/homebrew/install.sh 2>&1
+
+  # Update homebrew
+  echo "› brew update"
+  brew update
+fi
 
 # Install software
 echo "› $DOT/script/install"
 $DOT/script/install
 
-# Upgrade homebrew
-echo "› brew upgrade"
-brew upgrade && brew cleanup
+# macOS-specific: upgrade homebrew
+if test "$(uname)" = "Darwin"
+then
+  echo "› brew upgrade"
+  brew upgrade && brew cleanup
+fi
