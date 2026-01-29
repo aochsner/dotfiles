@@ -17,6 +17,7 @@ cask "iterm2"
 brew "gnupg"
 cask "logseq"
 cask "grammarly-desktop"
+brew "pinentry-mac"
 
 brew "awscli"
 cask "gcloud-cli"
