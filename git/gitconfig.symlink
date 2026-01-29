@@ -14,7 +14,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+        editor = code --wait
 	autocrlf = input
 	symlinks = false
 [apply]
