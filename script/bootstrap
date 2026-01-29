@@ -1,11 +1,43 @@
 #!/usr/bin/env bash
 #
 # bootstrap installs things.
+#
+# Usage: bootstrap [-f|--force] [-s|--skip] [-b|--backup]
+#   -f, --force   Overwrite all existing files without prompting
+#   -s, --skip    Skip all existing files without prompting
+#   -b, --backup  Backup all existing files without prompting
 
 cd "$(dirname "$0")/.."
 DOTFILES_ROOT=$(pwd -P)
 
 set -e
+
+# Parse command line arguments
+OVERWRITE_ALL_DEFAULT=false
+BACKUP_ALL_DEFAULT=false
+SKIP_ALL_DEFAULT=false
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -f|--force)
+      OVERWRITE_ALL_DEFAULT=true
+      shift
+      ;;
+    -s|--skip)
+      SKIP_ALL_DEFAULT=true
+      shift
+      ;;
+    -b|--backup)
+      BACKUP_ALL_DEFAULT=true
+      shift
+      ;;
+    *)
+      echo "Unknown option: $1"
+      echo "Usage: bootstrap [-f|--force] [-s|--skip] [-b|--backup]"
+      exit 1
+      ;;
+  esac
+done
 
 echo ''
 
@@ -133,7 +165,7 @@ link_file () {
 install_dotfiles () {
   info 'installing dotfiles'
 
-  local overwrite_all=false backup_all=false skip_all=false
+  local overwrite_all=$OVERWRITE_ALL_DEFAULT backup_all=$BACKUP_ALL_DEFAULT skip_all=$SKIP_ALL_DEFAULT
 
   for src in $(find -H "$DOTFILES_ROOT" -maxdepth 2 -name '*.symlink' -not -path '*.git*')
   do
