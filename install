@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#
+# bootstrap devcontainer - forces overwrite
+exec ./script/bootstrap -f
