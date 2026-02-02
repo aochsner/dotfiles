@@ -86,7 +86,7 @@ if [[ -n "$REMOTE_CONTAINERS" || -n "$CODESPACES" || -d "/workspaces" ]]; then
 else
   # On host: use ssh-agent plugin to manage keys
   plugins=(git ssh-agent gpg-agent nvm jenv opentofu thefuck kubectl dotenv golang docker gh zsh-autosuggestions zsh-syntax-highlighting)
-  zstyle :omz:plugins:ssh-agent identities id_ecdsa_sk id_rsa
+  zstyle :omz:plugins:ssh-agent identities id_rsa # id_ecdsa_sk
 fi
 
 source $ZSH/oh-my-zsh.sh
