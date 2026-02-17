@@ -105,10 +105,6 @@ brew "kind"
 brew "saml2aws"
 
 # Monstro
-cask "linear-linear"
-cask "figma"
-cask "notion"
-cask "miro"
 brew "syft"
 cask "1password"
 cask "freelens"
