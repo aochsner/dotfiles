@@ -37,7 +37,8 @@
 [user]
         name = Andrew Ochsner
         email = andy.ochsner@monstro.com
-        signingKey = AC80733BA2DB988AAE8B9CA745A1E31CD8B35CD2
+#        signingKey = AC80733BA2DB988AAE8B9CA745A1E31CD8B35CD2 # USB-A
+	signingKey = 438DD02C3C3A937586B2551D96AFF9C2CCD89C94 # USB-C
 # https://developers.yubico.com/SSH/Securing_git_with_SSH_and_FIDO2.html if switching from PGP to SSH
 [filter "lfs"]
         process = git-lfs filter-process

@@ -192,3 +192,6 @@ unset __conda_setup
 
 [[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
 [[ -f ~/.venv/bin/activate ]] && source ~/.venv/bin/activate
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
