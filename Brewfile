@@ -67,7 +67,7 @@ cask "microsoft-auto-update"
 cask "microsoft-office"
 cask "microsoft-edge"
 cask "shottr"
-cask "claude-code"
+#cask "claude-code" #install natively
 cask "cursor"
 cask "codex"
 
