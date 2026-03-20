@@ -24,6 +24,7 @@ brew "awscli"
 cask "gcloud-cli"
 
 cask "google-chrome"
+cask "arc"
 cask "visual-studio-code"
 mas "Enpass", id: 732710998
 cask "rectangle"
