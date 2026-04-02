@@ -1,1 +1,1 @@
-export PATH=$PATH:$(bingo bin):~/bin:~/.local/bin:/opt/homebrew/share/google-cloud-sdk/bin
+export PATH=$PATH:$(go env GOPATH)/bin:$(bingo bin):~/bin:~/.local/bin:/opt/homebrew/share/google-cloud-sdk/bin
