@@ -96,7 +96,7 @@ brew "python@3.14"
 
 # Golang
 brew "go"
-brew "tekwizely/tap/bingo"
+#brew "tekwizely/tap/bingo"
 
 # client
 brew "kind"
