@@ -59,3 +59,4 @@ trusted-key 0x45A1E31CD8B35CD2
 #verbose
 # Show expired subkeys
 #list-options show-unusable-subkeys
+no-tty

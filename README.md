@@ -93,7 +93,9 @@ machine or move to a new one
   - .ssh 
   - home dir (dot folders)
   - Pictures/Music?
-  - gpg export https://github.com/drduh/YubiKey-Guide#multiple-hosts
+  - gpg
+    - https://github.com/drduh/YubiKey-Guide#multiple-hosts
+    - https://www.spletzer.com/2026/04/a-no-nonsense-guide-to-gpg-commit-signing-with-a-yubikey/#setting-up-on-a-new-machine
 - 
 
 ## bugs

@@ -16,7 +16,7 @@ brew "openssh"
 cask "iterm2"
 brew "gnupg"
 cask "logseq"
-cask "grammarly-desktop"
+#cask "grammarly-desktop"
 brew "pinentry-mac"
 cask "git-credential-manager"
 
@@ -24,7 +24,8 @@ brew "awscli"
 cask "gcloud-cli"
 
 cask "google-chrome"
-cask "arc"
+#cask "arc"
+cask "thebrowsercompany-dia"
 cask "visual-studio-code"
 mas "Enpass", id: 732710998
 cask "rectangle"
@@ -60,7 +61,7 @@ cask "font-inconsolata-for-powerline"
 cask "font-inconsolata-for-powerline-bold"
 cask "font-powerline-symbols"
 cask "font-meslo-lg-nerd-font"
-cask "jetbrains-toolbox"
+#cask "jetbrains-toolbox"
 cask "keybase"
 #cask "eul"
 cask "stats"
@@ -70,8 +71,8 @@ cask "microsoft-office"
 cask "microsoft-edge"
 cask "shottr"
 #cask "claude-code" #install natively
-cask "cursor"
-cask "codex"
+#cask "cursor"
+#cask "codex"
 
 cask "spotify"
 cask "yubico-authenticator"
@@ -79,7 +80,7 @@ cask "yubico-authenticator"
 cask "steam"
 
 mas "Pages", id: 409201541
-mas "Keynote", id: 409183694
+mas "Keynote", id: 361285480
 mas "Debit & Credit", id: 882637653
 mas "Numbers", id: 409203825
 
@@ -108,5 +109,5 @@ brew "saml2aws"
 
 # Monstro
 brew "syft"
-cask "1password"
+#cask "1password"
 cask "freelens"
