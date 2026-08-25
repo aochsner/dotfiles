@@ -59,4 +59,4 @@ trusted-key 0x96AFF9C2CCD89C94
 #verbose
 # Show expired subkeys
 #list-options show-unusable-subkeys
-no-tty
+#no-tty
