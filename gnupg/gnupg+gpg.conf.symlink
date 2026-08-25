@@ -43,8 +43,8 @@ use-agent
 # Disable recipient key ID in messages
 throw-keyids
 # Default/trusted key ID to use (helpful with throw-keyids)
-default-key 0x45A1E31CD8B35CD2
-trusted-key 0x45A1E31CD8B35CD2
+default-key 0x96AFF9C2CCD89C94
+trusted-key 0x96AFF9C2CCD89C94
 # Group recipient keys (preferred ID last)
 #group keygroup = 0xFF00000000000001 0xFF00000000000002 0xFF3E7D88647EBCDB
 # Keyserver URL
